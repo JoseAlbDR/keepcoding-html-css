@@ -1,4 +1,8 @@
-main-bg {
+* {
+  box-sizing: border-box;
+}
+
+.main-bg {
   color: white;
   background-color: black;
 }
