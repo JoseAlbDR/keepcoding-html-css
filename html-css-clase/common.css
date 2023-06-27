@@ -3,12 +3,40 @@
   --main-bg-color: #000;
   --main-brand-color: #e50914;
   --main-brand-color-light: #e44c54;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+  /* font-family: "Times New Roman", Times, serif; */
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.9rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+label {
+  font-size: 2rem;
+}
+option {
+  font-size: 2rem;
 }
 
 body {
