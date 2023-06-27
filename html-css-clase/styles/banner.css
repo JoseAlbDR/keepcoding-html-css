@@ -1,6 +1,22 @@
 .banner {
   height: 75vh;
   background-color: #b5b5b5;
-  /* background-image: url("../../assets/app/catalog.jpg"); */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner .banner__image {
+  background-image: url("../../assets/app/catalog.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.banner .banner__content {
+  z-index: 999;
 }
