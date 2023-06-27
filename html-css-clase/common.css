@@ -1,3 +1,7 @@
+:root {
+  --main-bg-color: #fff;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +13,6 @@ body {
 }
 
 .main-bg {
-  color: white;
+  color: var(--main-bg-color);
   background-color: black;
 }
