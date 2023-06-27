@@ -1,0 +1,6 @@
+.banner {
+  height: 200px;
+  background-color: #b5b5b5;
+  /* background-image: url("../../assets/app/catalog.jpg"); */
+  text-align: center;
+}
