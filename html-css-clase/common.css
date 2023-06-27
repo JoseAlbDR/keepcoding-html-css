@@ -1,5 +1,8 @@
 :root {
-  --main-bg-color: #fff;
+  --main-text-color: #fff;
+  --main-bg-color: #000;
+  --main-brand-color: #e50914;
+  --main-brand-color-light: #e44c54;
 }
 
 * {
@@ -13,6 +16,6 @@ body {
 }
 
 .main-bg {
-  color: var(--main-bg-color);
-  background-color: black;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
 }
