@@ -1,0 +1,22 @@
+/* Footer */
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  font-style: italic;
+
+  background: radial-gradient(
+    40.39% 510.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%
+  );
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .footer__company {
+  font-style: normal;
+}
