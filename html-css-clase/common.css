@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
 
 /* Footer */
 .footer {
-  padding: 1px;
+  padding: 20px 0;
   text-align: center;
   font-style: italic;
 
@@ -26,7 +28,10 @@ body {
   );
 }
 
-.footer .footer__compay {
-  color: red;
+.footer p {
+  margin: 0;
+}
+
+.footer .footer__company {
   font-style: normal;
 }
