@@ -18,7 +18,9 @@
 
 .header__nav__list {
   display: flex;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
 }
 
 .header .header__nav .header__nav__list {
@@ -27,4 +29,6 @@
 
 .header__nav .header__nav__list .header__nav__list__item a {
   text-decoration: none;
+  font-size: 0.6rem;
+  margin-right: 0.6rem;
 }
