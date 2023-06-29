@@ -1,0 +1,31 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info .info__content {
+  /* margin-left: 20px; */
+  width: 90%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.info .info__media {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.info .info__image {
+  width: 48%;
+  z-index: 1;
+}
+
+.info .info__video {
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  z-index: -1;
+}
