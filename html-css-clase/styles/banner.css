@@ -23,3 +23,9 @@
 .banner .banner__content {
   z-index: 1;
 }
+
+@media (min-width: 768px) {
+  .banner {
+    height: 75vh;
+  }
+}

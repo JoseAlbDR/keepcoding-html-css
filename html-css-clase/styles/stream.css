@@ -19,13 +19,32 @@
 }
 
 .info .info__image {
-  width: 48%;
+  width: 274px;
   z-index: 1;
 }
 
 .info .info__video {
   position: absolute;
-  width: 30%;
-  top: 10%;
+  width: 175px;
+  top: 30px;
   z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .info .info__image {
+    width: 628px;
+  }
+
+  .info .info__video {
+    width: 384px;
+    top: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info {
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 1.5rem;
+  }
 }
