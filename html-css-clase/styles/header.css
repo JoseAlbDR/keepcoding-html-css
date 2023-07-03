@@ -35,3 +35,9 @@
   font-size: 0.6rem;
   /* margin-right: 0.6rem; */
 }
+
+@media (min-width: 768px) {
+  .header__image {
+    width: 200px;
+  }
+}
