@@ -10,3 +10,14 @@
 .btn:hover {
   background-color: var(--main-brand-color-light);
 }
+
+.hidden-xs {
+  display: none;
+}
+
+/* Todo lo que está por encima de 768px, por defecto screen and */
+@media (min-width: 768px) {
+  .hidden-xs {
+    display: block;
+  }
+}
