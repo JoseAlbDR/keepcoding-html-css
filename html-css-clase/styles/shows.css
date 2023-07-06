@@ -8,7 +8,7 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 15px;
 }
 
 .shows .shows__list img {
@@ -17,4 +17,10 @@
 
 .shows .shows__list figure {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .shows__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
