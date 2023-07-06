@@ -5,10 +5,12 @@
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid var(--main-brand-color);
+  transition: all 1s;
 }
 
 .btn:hover {
-  background-color: var(--main-brand-color-light);
+  background-color: #fff;
+  color: var(--main-brand-color);
 }
 
 .btn.btn--reset {
