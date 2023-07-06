@@ -57,3 +57,45 @@
     display: block;
   }
 }
+
+@keyframes spin {
+  0% {
+    border-left-color: #da77f2;
+    border-top-color: #e599f7;
+    border-right-color: #eebefa;
+    border-bottom-color: #f3d9fa;
+  }
+  25% {
+    border-top-color: #da77f2;
+    border-right-color: #e599f7;
+    border-bottom-color: #eebefa;
+    border-left-color: #f3d9fa;
+  }
+  50% {
+    border-right-color: #da77f2;
+    border-bottom-color: #e599f7;
+    border-left-color: #eebefa;
+    border-top-color: #f3d9fa;
+  }
+  75% {
+    border-bottom-color: #da77f2;
+    border-left-color: #e599f7;
+    border-top-color: #eebefa;
+    border-right-color: #f3d9fa;
+  }
+  100% {
+    border-left-color: #da77f2;
+    border-top-color: #e599f7;
+    border-right-color: #eebefa;
+    border-bottom-color: #f3d9fa;
+  }
+}
+
+.spinner {
+  margin: 20px;
+  height: 20px;
+  width: 20px;
+  border: 4px solid #da77f2;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
